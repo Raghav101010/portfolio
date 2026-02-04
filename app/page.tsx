@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -25,13 +26,31 @@ export default function Home() {
 
           {/* CTA Buttons */}
           <div className="mt-8 flex gap-4">
-            <button className="px-6 py-3 rounded-xl bg-primary text-primary-foreground font-medium hover:opacity-90 transition">
-              View Projects
-            </button>
+            <Link href="/projects">
+              <button className="px-6 py-3 rounded-lg border border-neutral-600
+           transition hover:bg-neutral-800 active:scale-95">
+               View Projects
+              </button>
+            </Link>
 
-            <button className="px-6 py-3 rounded-xl border border-border hover:bg-accent transition">
-              Download Resume
-            </button>
+            <a href="/resume/Raghwendra_Mahato_Resume.pdf" download
+            className="px-6 py-3 rounded-lg border transition hover:bg-neutral-800">
+            Download Resume
+            </a>
+
+            <Link href="/contact">
+              <button className="px-6 py-3 rounded-lg border border-neutral-600
+           transition hover:bg-neutral-800 active:scale-95">
+               Contact Me
+              </button>
+            </Link>
+
+            <Link href="/certifications">
+              <button className="px-6 py-3 rounded-lg border border-neutral-600
+           transition hover:bg-neutral-800 active:scale-95">
+               Certifications and Achievements
+              </button>
+            </Link>
           </div>
         </div>
 
