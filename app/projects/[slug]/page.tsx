@@ -2,14 +2,16 @@ import { projects } from "@/data/projects";
 import Image from "next/image";
 import Link from "next/link";
 
-type Props = {
-  params: {
+type PageProps = {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 };
 
-export default function ProjectDetailPage({ params }: Props) {
-  const project = projects.find((p) => p.slug === params.slug);
+export default async function ProjectDetailPage({ params }: PageProps) {
+  const { slug } = await params;
+
+  const project = projects.find((p) => p.slug === slug);
 
   if (!project) {
     return <div className="p-20">Project not found</div>;
@@ -57,9 +59,13 @@ export default function ProjectDetailPage({ params }: Props) {
       {/* Links */}
       <div className="mt-8 flex gap-6 underline">
         {project.demo && (
-          <a href={project.demo} target="_blank">Live Demo</a>
+          <a href={project.demo} target="_blank" rel="noreferrer">
+            Live Demo
+          </a>
         )}
-        <a href={project.github} target="_blank">GitHub</a>
+        <a href={project.github} target="_blank" rel="noreferrer">
+          GitHub
+        </a>
       </div>
 
       {/* Video */}
