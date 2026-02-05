@@ -48,15 +48,15 @@ export default function ContactPage() {
       {/* Contact Links */}
       <div className="mt-6 flex gap-6 text-sm underline">
         <a
-          href="https://wa.me/977XXXXXXXXX"
+          href="https://wa.me/9779848867593"
           target="_blank"
           rel="noopener noreferrer"
         >
           WhatsApp
         </a>
-        <a href="mailto:raghwendra.mahato@gmail.com">Email</a>
+        <a href="mailto:raghwendramahato@gmail.com">Email</a>
         <a
-          href="https://linkedin.com/in/your-linkedin"
+          href="https://linkedin.com/in/raghwendra-mahato-553706197/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -77,7 +77,7 @@ export default function ContactPage() {
           name="name"
           required
           placeholder="Your Name"
-          className="w-full rounded bg-neutral-900 p-3"
+          className="w-full rounded bg-neutral-300 p-3"
         />
 
         <input
@@ -85,7 +85,7 @@ export default function ContactPage() {
           type="email"
           required
           placeholder="Your Email"
-          className="w-full rounded bg-neutral-900 p-3"
+          className="w-full rounded bg-neutral-300 p-3"
         />
 
         <textarea
@@ -93,7 +93,7 @@ export default function ContactPage() {
           required
           placeholder="Your Message"
           rows={4}
-          className="w-full rounded bg-neutral-900 p-3"
+          className="w-full rounded bg-neutral-300 p-3"
         />
 
         <button
