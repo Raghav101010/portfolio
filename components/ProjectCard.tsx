@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function ProjectCard({ project }: { project: Project }) {
   return (
     <Link href={`/projects/${project.slug}`}>
-    <div className="cursor-pointer rounded-xl border border-neutral-800 bg-neutral-900 p-5 hover:border-neutral-600 transition">
+    <div className="cursor-pointer rounded-xl border border-neutral-800 bg-neutral-300 p-5 hover:border-neutral-600 transition">
       <Image
         src={project.image}
         alt={project.title}
@@ -39,7 +39,7 @@ export default function ProjectCard({ project }: { project: Project }) {
           <a
             href={project.demo}
             target="_blank"
-            className="px-4 py-2 text-sm rounded-lg bg-primary text-primary-foreground"
+            className="px-4 py-2 text-sm rounded-lg bg-primary text-primary-foreground border"
           >
             Demo
           </a>

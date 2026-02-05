@@ -71,10 +71,11 @@ export default function Home() {
       <section className="mt-24 max-w-3xl">
         <h2 className="text-2xl font-semibold mb-4">About Me</h2>
         <p className="text-muted-foreground leading-relaxed">
-          I’m an AI-focused engineer with a strong foundation in Python,
-          Machine Learning, and Computer Vision. Currently building end-to-end
-          AI applications — from model training to deployment — with a focus
-          on real-world impact.
+          Telecom management professional transitioning into Data Science and AI/ML, with
+strong focus on Computer Vision. Skilled in Python, Machine Learning, Deep
+Learning, and Data Analysis with proven project experience in building and
+deploying AI-driven solutions. Seeking opportunities as a Computer Vision / AI-ML
+Engineer to apply technical expertise for impactful real-world applications.
         </p>
       </section>
     </main>
