@@ -41,12 +41,12 @@ export const projects: Project[] = [
     slug: "real-time-object-detection-and-tracking",
     title: "Real Time Object Detection and Tracking",
     description:
-      "Full-stack job portal with Django backend and PostgreSQL database.",
+      "Real-time person detection using YOLOv8, tracking with unique IDs and bi-directional counting",
     longDescription:
-      "This project uses a CNN model with OpenCV to detect face masks in real time via webcam. It is optimized for live inference and deployed-ready.",
-    tech: ["Django", "PostgreSQL", "Tailwind", "Deployment"],
+      "Real-time person detection using YOLOv8, tracking with unique IDs and bi-directional counting",
+    tech: ["Python", "OpenCV", "Ultralytics YOLOv8", "DeepSORT / Custom Tracker", "Streamlit", "FFmpeg"],
     image: "/projects/multiple-object-tracking.jpg",
-    demo: "https://your-streamlit-app.com",
+    demo: "https://realtime-object-detection-tracking-5cykoo7oygeps4iknae9lu.streamlit.app/",
     github: "https://github.com/Raghav101010/realtime-object-detection-tracking",
     video: "https://youtube.com/your-video-link",
   },
