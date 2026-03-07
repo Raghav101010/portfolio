@@ -26,25 +26,25 @@ export const projects: Project[] = [
   },
   {
     slug: "potato-diseases-clasification",
-    title: "Potato Diseases Classification",
+    title: "Potato Diseases Classifier",
     description:
-      "CNN-based medical image classification system deployed with Streamlit.",
+      "A deep learning powered REST API that detects potato leaf diseases from images using TensorFlow and FastAPI",
     longDescription:
-      "This project uses a CNN model with OpenCV to detect face masks in real time via webcam. It is optimized for live inference and deployed-ready.",
-    tech: ["Deep Learning", "CNN", "Streamlit", "Python"],
+      "",
+    tech: ["Deep Learning", "CNN", "TensorFlow", "Python", "FastAPI", "Uvicorn", "Pillow", "NumPy", "Render (API hosting)", "React", "REST API", "Vercel (frontend deployment)"],
     image: "/projects/potato_leaves.jpg",
-    demo: "https://your-streamlit-app.com",
+    demo: "https://potato-diseases-react-app1.vercel.app",
     github: "https://github.com/Raghav101010/potato-diseases",
     video: "https://youtube.com/your-video-link",
   },
   {
     slug: "real-time-object-detection-and-tracking",
-    title: "Real Time Object Detection and Tracking",
+    title: "Real Time Object Detection, Tracking and Bi-directional Counting",
     description:
       "Real-time person detection using YOLOv8, tracking with unique IDs and bi-directional counting",
     longDescription:
-      "Real-time person detection using YOLOv8, tracking with unique IDs and bi-directional counting",
-    tech: ["Python", "OpenCV", "Ultralytics YOLOv8", "DeepSORT / Custom Tracker", "Streamlit", "FFmpeg"],
+      "A full-stack machine learning application that detects potato leaf diseases from uploaded images using a deep learning model. The backend API is built with FastAPI and serves a TensorFlow model for real-time predictions, while the frontend is developed with React to provide a simple interface for image upload and results visualization. The system is deployed in the cloud with the API hosted on Render and the web interface on Vercel, enabling users to upload images and receive instant disease classification and confidence scores.",
+    tech: ["Python", "OpenCV", "Ultralytics YOLOv8", "DeepSORT / Custom Tracker", "Streamlit", "FFmpeg", "Streamlit Cloud (Deployment)"],
     image: "/projects/multiple-object-tracking.jpg",
     demo: "https://realtime-object-detection-tracking-5cykoo7oygeps4iknae9lu.streamlit.app/",
     github: "https://github.com/Raghav101010/realtime-object-detection-tracking",
