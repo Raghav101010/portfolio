@@ -30,7 +30,7 @@ export const projects: Project[] = [
     description:
       "A deep learning powered REST API that detects potato leaf diseases from images using TensorFlow and FastAPI",
     longDescription:
-      "",
+      "A full-stack machine learning application that detects potato leaf diseases from uploaded images using a deep learning model. The backend API is built with FastAPI and serves a TensorFlow model for real-time predictions, while the frontend is developed with React to provide a simple interface for image upload and results visualization. The system is deployed in the cloud with the API hosted on Render and the web interface on Vercel, enabling users to upload images and receive instant disease classification and confidence scores.",
     tech: ["Deep Learning", "CNN", "TensorFlow", "Python", "FastAPI", "Uvicorn", "Pillow", "NumPy", "Render (API hosting)", "React", "REST API", "Vercel (frontend deployment)"],
     image: "/projects/potato_leaves.jpg",
     demo: "https://potato-diseases-react-app1.vercel.app",
@@ -43,7 +43,7 @@ export const projects: Project[] = [
     description:
       "Real-time person detection using YOLOv8, tracking with unique IDs and bi-directional counting",
     longDescription:
-      "A full-stack machine learning application that detects potato leaf diseases from uploaded images using a deep learning model. The backend API is built with FastAPI and serves a TensorFlow model for real-time predictions, while the frontend is developed with React to provide a simple interface for image upload and results visualization. The system is deployed in the cloud with the API hosted on Render and the web interface on Vercel, enabling users to upload images and receive instant disease classification and confidence scores.",
+      "A production-ready computer vision application that performs real-time person detection using YOLOv8, tracks individuals with unique IDs, and counts directional movement (UP/DOWN) based on line-crossing logic. The system includes performance monitoring (Inference & Display FPS), frame optimization techniques, and browser-compatible video encoding. Deployed on Streamlit Community Cloud for live interaction.",
     tech: ["Python", "OpenCV", "Ultralytics YOLOv8", "DeepSORT / Custom Tracker", "Streamlit", "FFmpeg", "Streamlit Cloud (Deployment)"],
     image: "/projects/multiple-object-tracking.jpg",
     demo: "https://realtime-object-detection-tracking-5cykoo7oygeps4iknae9lu.streamlit.app/",
