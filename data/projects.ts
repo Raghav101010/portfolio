@@ -28,7 +28,7 @@ export const projects: Project[] = [
     slug: "potato-diseases-clasification",
     title: "Potato Diseases Classifier",
     description:
-      "A deep learning powered REST API that detects potato leaf diseases from images using TensorFlow and FastAPI",
+      "A cloud-deployed deep learning web app that detects potato leaf diseases using a TensorFlow model served through a FastAPI API and a React frontend",
     longDescription:
       "A full-stack machine learning application that detects potato leaf diseases from uploaded images using a deep learning model. The backend API is built with FastAPI and serves a TensorFlow model for real-time predictions, while the frontend is developed with React to provide a simple interface for image upload and results visualization. The system is deployed in the cloud with the API hosted on Render and the web interface on Vercel, enabling users to upload images and receive instant disease classification and confidence scores.",
     tech: ["Deep Learning", "CNN", "TensorFlow", "Python", "FastAPI", "Uvicorn", "Pillow", "NumPy", "Render (API hosting)", "React", "REST API", "Vercel (frontend deployment)"],
