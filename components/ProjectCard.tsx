@@ -53,13 +53,13 @@ export default function ProjectCard({ project }: { project: Project }) {
           GitHub
         </a>
 
-        {project.video && (
+        {project.architecture && (
           <a
-            href={project.video}
+            href={project.architecture}
             target="_blank"
             className="px-4 py-2 text-sm rounded-lg border border-border"
           >
-            Video
+            Architecture
           </a>
         )}
       </div>

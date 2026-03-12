@@ -49,7 +49,7 @@ Running the Project Locally
 Clone the repository:
     git clone https://github.com/Raghav101010/portfolio.git
 Move into the project directory:
-    d portfolio
+    cd portfolio
 Install dependencies:
     npm install
 Run development server:

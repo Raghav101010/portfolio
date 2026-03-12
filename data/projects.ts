@@ -7,7 +7,7 @@ export interface Project {
   image: string;
   demo?: string;
   github: string;
-  video?: string;
+  architecture?: string;
 }
 
 export const projects: Project[] = [
@@ -22,7 +22,7 @@ export const projects: Project[] = [
     image: "/projects/face_mask.jpg",
     demo: "https://huggingface.co/spaces/raghav101010/face-mask-classifier",
     github: "https://github.com/Raghav101010/face-mask-classifier",
-    video: "https://youtube.com/your-video-link",
+    architecture: "/projects/face-mask-architecture.png",
   },
   {
     slug: "potato-diseases-clasification",
@@ -35,44 +35,56 @@ export const projects: Project[] = [
     image: "/projects/potato_leaves.jpg",
     demo: "https://potato-diseases-react-app1.vercel.app",
     github: "https://github.com/Raghav101010/potato-diseases",
-    video: "https://youtube.com/your-video-link",
+    architecture: "/projects/potato-diseases-architecture.png",
   },
   {
     slug: "real-time-object-detection-and-tracking",
-    title: "Real Time Object Detection, Tracking and Bi-directional Counting",
+    title: "Video Baased Object Detection, Tracking and Bi-directional Counting",
     description:
-      "Real-time person detection using YOLOv8, tracking with unique IDs and bi-directional counting",
+      "Video Baased person detection using YOLOv8, tracking with unique IDs and bi-directional counting",
     longDescription:
-      "A production-ready computer vision application that performs real-time person detection using YOLOv8, tracks individuals with unique IDs, and counts directional movement (UP/DOWN) based on line-crossing logic. The system includes performance monitoring (Inference & Display FPS), frame optimization techniques, and browser-compatible video encoding. Deployed on Streamlit Community Cloud for live interaction.",
-    tech: ["Python", "OpenCV", "Ultralytics YOLOv8", "DeepSORT / Custom Tracker", "Streamlit", "FFmpeg", "Streamlit Cloud (Deployment)"],
+      "A production-ready computer vision application that performs detection using YOLOv8, tracks individuals with unique IDs, and counts directional movement (UP/DOWN) based on line-crossing logic. The system includes performance monitoring (Inference & Display FPS), frame optimization techniques, and browser-compatible video encoding. Deployed on Streamlit Community Cloud for live interaction.",
+    tech: ["Python", "OpenCV", "Ultralytics YOLOv8", "DeepSORT / Custom Tracker", "Streamlit", "FFmpeg", "Streamlit Cloud (Deployment)", "Performce Optimization"],
     image: "/projects/multiple-object-tracking.jpg",
     demo: "https://realtime-object-detection-tracking-5cykoo7oygeps4iknae9lu.streamlit.app/",
     github: "https://github.com/Raghav101010/realtime-object-detection-tracking",
-    video: "https://youtube.com/your-video-link",
+    architecture: "/projects/object-tracking-architecture.png",
   },
   {
     slug: "face-analysis-system",
-    title: "Face Analysis System",
+    title: "Face Analysis System (Coming Soon...)",
     description: "Face Analysis System",
     longDescription:
-      "Face Analysis System",
+      "Face Analysis System ",
     tech: ["CNN", "Deep Learning", "Streamlit"],
     image: "/projects/face.png",
     demo: "https://your-streamlit-app.com",
     github: "https://github.com/Raghav101010/face-analysis-system",
-    video: "https://youtube.com/your-video-link",
+    architecture: "/projects/face.png",
   },
   {
     slug: "image-captioning",
-    title: "Image Captioning",
+    title: "Image Captioning (Coming Soon...)",
     description: "Image Captioning",
     longDescription:
       "Image Captioning",
-    tech: ["CNN", "Deep Learning", "Streamlit"],
+    tech: ["CNN", "Deep Learning", "LLM"],
     image: "/projects/image_captioning.png",
     demo: "https://your-streamlit-app.com",
     github: "https://github.com/Raghav101010/image-captioning",
-    video: "https://youtube.com/your-video-link",
+    architecture: "/projects/image_captioning.png",
+  },
+  {
+    slug: "ai-portfolio-assistant",
+    title: "AI Portfolio Assistant (Coming Soon...)",
+    description: "AI Portfolio Assistant",
+    longDescription:
+      "AI Portfolio Assistant",
+    tech: ["CNN", "Deep Learning", "LLM", "Agentic AI", "RAG"],
+    image: "/projects/ai-portfolio.png",
+    demo: "https://your-streamlit-app.com",
+    github: "https://github.com/Raghav101010/ai-portfolio-assistant",
+    architecture: "/projects/ai-portfolio.png",
   },
   
 ];
