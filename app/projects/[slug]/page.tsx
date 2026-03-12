@@ -40,7 +40,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
       </div>
 
       {/* Description */}
-      <p className="max-w-8xl text-neutral-900">
+      <p className="max-w-6xl text-neutral-900">
         {project.longDescription}
       </p>
 
@@ -49,7 +49,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
         {project.tech.map((tech) => (
           <span
             key={tech}
-            className="rounded-full bg-neutral-200 px-8 py-2 text-s"
+            className="rounded-full bg-neutral-200 px-2 py-2 text-s"
           >
             {tech}
           </span>
