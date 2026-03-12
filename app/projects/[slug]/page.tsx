@@ -68,6 +68,11 @@ export default async function ProjectDetailPage({ params }: PageProps) {
             Live Demo
           </a>
         )}
+        {project.demo2 && (
+          <a href={project.demo2} target="_blank" rel="noreferrer">
+            Live Demo
+          </a>
+        )}
         <a href={project.github} target="_blank" rel="noreferrer">
           GitHub Repo
         </a>

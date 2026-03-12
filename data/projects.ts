@@ -7,6 +7,7 @@ export interface Project {
   image: string;
   demo?: string;
   demo1?: string;
+  demo2?: string;
   github: string;
   architecture?: string;
 }
@@ -18,11 +19,12 @@ export const projects: Project[] = [
     description:
       "A real-time computer vision application that detects whether a person is wearing a face mask using a Convolutional Neural Network (CNN) and live webcam input",
     longDescription:
-      "A real-time computer vision application that detects whether a person is wearing a face mask using a Convolutional Neural Network (CNN) and live webcam input. The application performs face detection, mask classification, and real-time analytics visualization through an interactive Streamlit dashboard. Deployed on Hugging Face Spaces and on Railway using docker container deployment. Due to browser WebRTC restrictions in some cloud environments, webcam streaming may close automatically on these platforms. The application works fully when run locally.",
+      "Project Description: This project is a real-time computer vision application that detects whether a person is wearing a face mask using a Convolutional Neural Network (CNN) and live webcam input. The system performs face detection, mask classification, and displays real-time analytics through an interactive Streamlit dashboard. The project is configured with two remotes: GitHub (origin) and Hugging Face (hf). Code pushed to the Hugging Face remote is automatically deployed on Hugging Face Spaces. The GitHub repository contains two branches: main and raghav. The main branch includes the full project with the trained 121 MB model, which is packaged inside a Docker container and deployed on Railway. The raghav branch is configured for deployment on Streamlit Cloud. Due to browser WebRTC restrictions in some cloud environments, the webcam stream closes automatically when webcam is turned on. However, the application runs completely as intended when executed locally.",
     tech: ["Python", "CNN", "OpenCV", "TensorFlow", "Haar Cascade Face Detection", "Streamlit", "streamlit-webrtc", "NumPy", "Pandas", "Docker", "Railway", "Hugging Face Spaces"],
     image: "/projects/face_mask.jpg",
     demo: "https://huggingface.co/spaces/raghav101010/face-mask-classifier",
     demo1: "https://face-mask-app-production.up.railway.app",
+    demo2: "https://face-mask-classifier-cfymhgjvt7kqxvlydzgqi5.streamlit.app",
     github: "https://github.com/Raghav101010/face-mask-classifier",
     architecture: "/projects/face-mask-architecture.png",
   },
@@ -32,7 +34,7 @@ export const projects: Project[] = [
     description:
       "A cloud-deployed deep learning web app that detects potato leaf diseases using a TensorFlow model served through a FastAPI API and a React frontend",
     longDescription:
-      "A full-stack machine learning application that detects potato leaf diseases from uploaded images using a deep learning model. The backend API is built with FastAPI and serves a TensorFlow model for real-time predictions, while the frontend is developed with React to provide a simple interface for image upload and results visualization. The system is deployed in the cloud with the API hosted on Render and the web interface on Vercel, enabling users to upload images and receive instant disease classification and confidence scores.",
+      "Project Description: Potato Disease Detection is an end-to-end deep learning web application that classifies potato leaf diseases from uploaded images. The system uses a convolutional neural network built with TensorFlow to identify diseases such as Early Blight, Late Blight, and Healthy leaves. A high-performance backend API was developed using FastAPI to serve the trained model for real-time predictions. The user interface was built with React to provide an intuitive experience for image upload and result visualization. Users can upload a potato leaf image and receive instant disease classification along with prediction confidence. The frontend application is deployed on Vercel for fast and reliable global delivery. The backend API hosting and model inference are managed on Render. The system follows a REST API architecture where the frontend communicates with the backend using HTTP requests. Image preprocessing, model inference, and prediction generation are handled within the API service.",
     tech: ["Deep Learning", "CNN", "TensorFlow", "Python", "FastAPI", "Uvicorn", "Pillow", "NumPy", "Render (API hosting)", "React", "REST API", "Vercel (frontend deployment)"],
     image: "/projects/potato_leaves.jpg",
     demo: "https://potato-diseases-react-app1.vercel.app",
@@ -46,7 +48,7 @@ export const projects: Project[] = [
     description:
       "Video Baased person detection using YOLOv8, tracking with unique IDs and bi-directional counting",
     longDescription:
-      "A production-ready computer vision application that performs detection using YOLOv8, tracks individuals with unique IDs, and counts directional movement (UP/DOWN) based on line-crossing logic. The system includes performance monitoring (Inference & Display FPS), frame optimization techniques, and browser-compatible video encoding. Deployed on Streamlit Community Cloud for live interaction.",
+      "Project Description: This project is a real-time computer vision application that detects and tracks people in video using YOLOv8 for object detection and DeepSORT for multi-object tracking. The system assigns unique IDs to each detected person and tracks their movement across frames. A line-based bi-directional counting mechanism determines whether a person moves UP or DOWN when crossing a defined boundary. The architecture follows a modular design with separate modules for detection, tracking, counting, and video processing. Performance optimization techniques such as frame skipping and frame resizing are implemented to improve processing speed. The application also monitors Inference FPS and Display FPS for real-time performance insights. After processing, the system generates an annotated video with bounding boxes, IDs, and directional counters. The processed video is then encoded and returned to the user interface. A Streamlit-based web interface allows users to upload videos and view results interactively. The entire application is deployed on Streamlit Community Cloud, making the system accessible directly through the browser.",
     tech: ["Python", "OpenCV", "Ultralytics YOLOv8", "DeepSORT / Custom Tracker", "Streamlit", "FFmpeg", "Streamlit Cloud (Deployment)", "Performce Optimization"],
     image: "/projects/multiple-object-tracking.jpg",
     demo: "https://realtime-object-detection-tracking-5cykoo7oygeps4iknae9lu.streamlit.app/",
