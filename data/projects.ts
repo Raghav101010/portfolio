@@ -15,13 +15,13 @@ export const projects: Project[] = [
     slug: "face-mask-detection",
     title: "Face Mask Detection System",
     description:
-      "Real-time face mask detection using CNN and OpenCV with webcam support.",
+      "A real-time computer vision application that detects whether a person is wearing a face mask using a Convolutional Neural Network (CNN) and live webcam input",
     longDescription:
-      "This project uses a CNN model with OpenCV to detect face masks in real time via webcam. It is optimized for live inference and deployed-ready.",
-    tech: ["Python", "CNN", "OpenCV", "TensorFlow"],
+      "A real-time computer vision application that detects whether a person is wearing a face mask using a Convolutional Neural Network (CNN) and live webcam input. The application performs face detection, mask classification, and real-time analytics visualization through an interactive Streamlit dashboard. Deployed on Hugging Face Spaces at https://huggingface.co/spaces/raghav101010/face-mask-classifier and on Railway using docker container deployment at https://face-mask-app-production.up.railway.app",
+    tech: ["Python", "CNN", "OpenCV", "TensorFlow", "Haar Cascade Face Detection", "Streamlit", "streamlit-webrtc", "NumPy", "Pandas", "Docker", "Railway", "Hugging Face Spaces"],
     image: "/projects/face_mask.jpg",
-    demo: "https://your-demo-link.com",
-    github: "https://github.com/yourusername/face-mask-detection",
+    demo: "https://huggingface.co/spaces/raghav101010/face-mask-classifier",
+    github: "https://github.com/Raghav101010/face-mask-classifier",
     video: "https://youtube.com/your-video-link",
   },
   {
@@ -51,15 +51,28 @@ export const projects: Project[] = [
     video: "https://youtube.com/your-video-link",
   },
   {
-    slug: "cancer-image-classification",
-    title: "Cancer Image Classification",
-    description: "CNN-based medical image classification.",
+    slug: "face-analysis-system",
+    title: "Face Analysis System",
+    description: "Face Analysis System",
     longDescription:
-      "This project uses a CNN model with OpenCV to detect face masks in real time via webcam. It is optimized for live inference and deployed-ready.",
+      "Face Analysis System",
     tech: ["CNN", "Deep Learning", "Streamlit"],
-    image: "/projects/cancer-classification.png",
+    image: "/projects/face.png",
     demo: "https://your-streamlit-app.com",
-    github: "https://github.com/Raghav101010/cancer_image_detector",
+    github: "https://github.com/Raghav101010/face-analysis-system",
     video: "https://youtube.com/your-video-link",
   },
+  {
+    slug: "image-captioning",
+    title: "Image Captioning",
+    description: "Image Captioning",
+    longDescription:
+      "Image Captioning",
+    tech: ["CNN", "Deep Learning", "Streamlit"],
+    image: "/projects/image_captioning.png",
+    demo: "https://your-streamlit-app.com",
+    github: "https://github.com/Raghav101010/image-captioning",
+    video: "https://youtube.com/your-video-link",
+  },
+  
 ];

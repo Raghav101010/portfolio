@@ -17,7 +17,7 @@ export default function ProjectCard({ project }: { project: Project }) {
 
       <h3 className="text-xl font-semibold">{project.title}</h3>
 
-      <p className="mt-2 text-sm text-muted-foreground">
+      <p className="mt-2 text-m text-muted-foreground">
         {project.description}
       </p>
 
@@ -26,7 +26,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         {project.tech.map((tech) => (
           <span
             key={tech}
-            className="text-xs px-3 py-1 rounded-full bg-accent text-accent-foreground"
+            className="rounded-full bg-neutral-700 text-white px-3 py-1 text-xs"
           >
             {tech}
           </span>

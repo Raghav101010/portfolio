@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+AI Portfolio — Raghwendra Mahato
 
-## Getting Started
+Personal AI / Computer Vision portfolio showcasing deployed machine learning projects, live demos, and technical implementations.
 
-First, run the development server:
+Live Portfolio:
+https://raghwendramahato.com.np
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This portfolio website presents my work in Artificial Intelligence, Computer Vision, and Machine Learning engineering.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The site highlights real-world AI projects, technical implementations, and live deployments demonstrating practical ML system design.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The goal of this portfolio is to provide recruiters and collaborators with a clear view of my:
 
-## Learn More
+Computer Vision skills
+Machine Learning engineering capabilities
+End-to-end project deployment experience
+Backend + frontend integration for AI systems
 
-To learn more about Next.js, take a look at the following resources:
+Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Project showcase with detailed technical descriptions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Live demo links for AI applications
+GitHub repository links for each project
+Dark / Light UI
+Dynamic project routing
+Contact form with email integration
+Fully deployed production website
+Custom domain
 
-## Deploy on Vercel
+Tech Stack
+    Frontend
+        Next.js
+        React
+        TypeScript
+        TailwindCSS
+    Backend / APIs
+        Next.js API Routes
+        Resend Email API
+    Deployment
+        Vercel — hosting and API routes
+        Custom domain — raghwendramahato.com.np
+        Deployment is automatically triggered on every push to the main branch.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Running the Project Locally
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Clone the repository:
+    git clone https://github.com/Raghav101010/portfolio.git
+Move into the project directory:
+    d portfolio
+Install dependencies:
+    npm install
+Run development server:
+    npm run dev
+Open in browser:
+    http://localhost:3000
+
