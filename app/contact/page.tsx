@@ -39,7 +39,7 @@ export default function ContactPage() {
   return (
     <main className="min-h-screen px-10 py-20">
       {/* Back Button */}
-      <Link href="/" className="underline text-sm">
+      <Link href="/" className="underline text-lg">
         ← Back to Home
       </Link>
 

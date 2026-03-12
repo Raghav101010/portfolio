@@ -20,7 +20,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
   return (
     <main className="min-h-screen px-10 py-20">
       {/* Back buttons */}
-      <div className="mb-8 flex gap-6 text-sm underline">
+      <div className="mb-8 flex gap-6 text-lg underline">
         <Link href="/">← Home</Link>
         <Link href="/projects">← Back to Projects</Link>
       </div>
@@ -40,7 +40,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
       </div>
 
       {/* Description */}
-      <p className="max-w-6xl text-neutral-900">
+      <p className="max-w-4xsl text-xl text-neutral-900">
         {project.longDescription}
       </p>
 
@@ -63,8 +63,13 @@ export default async function ProjectDetailPage({ params }: PageProps) {
             Live Demo
           </a>
         )}
+        {project.demo1 && (
+          <a href={project.demo1} target="_blank" rel="noreferrer">
+            Live Demo
+          </a>
+        )}
         <a href={project.github} target="_blank" rel="noreferrer">
-          GitHub
+          GitHub Repo
         </a>
       </div>
 

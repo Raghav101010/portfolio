@@ -6,6 +6,7 @@ export interface Project {
   tech: string[];
   image: string;
   demo?: string;
+  demo1?: string;
   github: string;
   architecture?: string;
 }
@@ -17,10 +18,11 @@ export const projects: Project[] = [
     description:
       "A real-time computer vision application that detects whether a person is wearing a face mask using a Convolutional Neural Network (CNN) and live webcam input",
     longDescription:
-      "A real-time computer vision application that detects whether a person is wearing a face mask using a Convolutional Neural Network (CNN) and live webcam input. The application performs face detection, mask classification, and real-time analytics visualization through an interactive Streamlit dashboard. Deployed on Hugging Face Spaces at https://huggingface.co/spaces/raghav101010/face-mask-classifier and on Railway using docker container deployment at https://face-mask-app-production.up.railway.app",
+      "A real-time computer vision application that detects whether a person is wearing a face mask using a Convolutional Neural Network (CNN) and live webcam input. The application performs face detection, mask classification, and real-time analytics visualization through an interactive Streamlit dashboard. Deployed on Hugging Face Spaces and on Railway using docker container deployment. Due to browser WebRTC restrictions in some cloud environments, webcam streaming may close automatically on these platforms. The application works fully when run locally.",
     tech: ["Python", "CNN", "OpenCV", "TensorFlow", "Haar Cascade Face Detection", "Streamlit", "streamlit-webrtc", "NumPy", "Pandas", "Docker", "Railway", "Hugging Face Spaces"],
     image: "/projects/face_mask.jpg",
     demo: "https://huggingface.co/spaces/raghav101010/face-mask-classifier",
+    demo1: "https://face-mask-app-production.up.railway.app",
     github: "https://github.com/Raghav101010/face-mask-classifier",
     architecture: "/projects/face-mask-architecture.png",
   },
@@ -34,6 +36,7 @@ export const projects: Project[] = [
     tech: ["Deep Learning", "CNN", "TensorFlow", "Python", "FastAPI", "Uvicorn", "Pillow", "NumPy", "Render (API hosting)", "React", "REST API", "Vercel (frontend deployment)"],
     image: "/projects/potato_leaves.jpg",
     demo: "https://potato-diseases-react-app1.vercel.app",
+    demo1: "https://potato-disease-api-kbjy.onrender.com/docs",
     github: "https://github.com/Raghav101010/potato-diseases",
     architecture: "/projects/potato-diseases-architecture.png",
   },

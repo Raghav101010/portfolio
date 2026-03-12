@@ -7,7 +7,7 @@ export default function ProjectsPage() {
     <main className="min-h-screen px-10 py-20">
 
       {/* Navigation */}
-      <div className="mb-8 text-sm underline">
+      <div className="mb-8 text-lg underline">
         <Link href="/">← Back to Home</Link>
       </div>
 

@@ -11,7 +11,7 @@ export default function CertificationsPage() {
   return (
     <main className="min-h-screen px-10 py-20">
 
-      <div className="mb-8 underline text-sm">
+      <div className="mb-8 underline text-lg">
         <Link href="/">← Back to Home</Link>
       </div>
 
