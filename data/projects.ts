@@ -74,7 +74,7 @@ export const projects: Project[] = [
     longDescription:
       "This project is an end-to-end Multimodal Vision-Language System that generates image captions and answers questions about images. It combines a CNN-based encoder (ResNet-style) with a Transformer-based decoder for sequence generation. The system supports both Greedy Search and Beam Search for caption generation, enabling a trade-off between speed and quality. A separate Visual Question Answering (VQA) module allows users to ask natural language questions about uploaded images. The model uses a custom tokenizer and vocabulary pipeline for text processing. Image preprocessing and feature extraction are handled through a structured data pipeline. Model performance is evaluated using BLEU-1 and BLEU-4 scores, displayed in the interface. The architecture is modular, with separate components for encoder, decoder, and inference logic. An interactive UI is built using Gradio for real-time user interaction. The entire system is fully deployed and accessible via Hugging Face Spaces.",
     tech: ["PyTorch", "NLTK", "CNN Encoder", "LLM", "Transformer Decoder", "Gradio", "BLEU", "Hugging Face", "Computer Vision", "NLP"],
-    image: "/projects/image_captioning.jpg",
+    image: "/projects/image_captioning.png",
     demo: "https://huggingface.co/spaces/raghav101010/image-captioning-system",
     github: "https://github.com/Raghav101010/multimodal-vision-language-system",
     architecture: "/projects/image-captioning-architecture.png",
